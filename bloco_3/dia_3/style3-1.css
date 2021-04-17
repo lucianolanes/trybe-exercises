@@ -1,0 +1,20 @@
+h1, p, ol, ul {
+    text-align: center;
+}
+
+a {
+    color: cadetblue;
+}
+
+li:hover {
+    background-color:lightpink;
+}
+
+a:active {
+    color: yellow;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+ul, ol {
+    list-style: none;
+}  
