@@ -34,6 +34,7 @@ section {
     height: 250px;
     font-size: 20px;
     margin-left: 20%;
+    margin-bottom: 5%;
 }
 
 img {
@@ -47,4 +48,17 @@ img {
 p {
     text-align: left;
     width: 500px;
+}
+
+h1 {
+    font-weight: 1000;
+}
+
+h2 {
+    text-align: center;
+    color: #70c1b3;
+}
+
+h3 {
+    color: #f25f5c;
 }
