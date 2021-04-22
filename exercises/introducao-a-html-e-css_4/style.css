@@ -34,12 +34,16 @@ strong {
     color: #f25f5c;
 }
 
+b{
+    color:#ffe066;
+}
+
 section {
     width: 800px;
     height: 250px;
     font-size: 20px;
     margin-left: 20%;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
 }
 
 img {
@@ -47,11 +51,12 @@ img {
     position: absolute;
     right: 20%;
     border-radius: 20%;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 p {
-    text-align: left;
+    text-align: justify;
+    font-size: 19px;
     width: 500px;
 }
 
@@ -68,6 +73,13 @@ h3 {
     color: #f25f5c;
 }
 
+.ataca{
+    margin-top: 30px;
+}
+
+.agil{
+    margin-bottom: 0;
+}
 aside {
     float:right;
     background-color: #50514f;
