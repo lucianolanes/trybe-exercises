@@ -1,5 +1,5 @@
-let a = 50;
-let b = 50;
+let a = 19;
+let b = 8;
 let c = 50;
 
 if (a > b && a > c){
