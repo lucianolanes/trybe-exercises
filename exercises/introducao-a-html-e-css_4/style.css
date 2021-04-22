@@ -30,8 +30,21 @@ span {
 }
 
 section {
-
-    background-color: #247ba0;
-    width: 1000px;
+    width: 800px;
+    height: 250px;
     font-size: 20px;
-    margin-left: 15%
+    margin-left: 20%;
+}
+
+img {
+    float: right;
+    position: absolute;
+    right: 20%;
+    border-radius: 20%;
+    margin-top: 5%;
+}
+
+p {
+    text-align: left;
+    width: 500px;
+}
