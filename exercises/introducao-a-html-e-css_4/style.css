@@ -27,6 +27,11 @@ nav {
 
 span {
     text-decoration:line-through;
+    margin-right: 15px;
+}
+
+strong {
+    color: #f25f5c;
 }
 
 section {
@@ -61,4 +66,13 @@ h2 {
 
 h3 {
     color: #f25f5c;
+}
+
+aside {
+    float:right;
+    background-color: #50514f;
+    height:fit-content;
+    width: 15%;
+    padding: 10px 20px;
+    border: solid #fff 2px;
 }
