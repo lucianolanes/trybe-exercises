@@ -28,7 +28,7 @@ span {
     margin-right: 15px;
 }
 
-strong {
+strong.linkexternovideo {
     color: #f25f5c;
 }
 
@@ -78,6 +78,7 @@ h3 {
 .agil{
     margin-bottom: 0;
 }
+
 aside {
     float:right;
     background-color: #50514f;
@@ -92,5 +93,4 @@ footer{
     padding: 7px;
     color: #000;
     text-align: center;
-
 }
