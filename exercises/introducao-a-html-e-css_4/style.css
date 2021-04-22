@@ -90,5 +90,9 @@ aside {
 }
 
 footer{
-    color: #fff;
+    background-color:#50514f;
+    padding: 7px;
+    color: #000;
+    text-align: center;
+
 }
