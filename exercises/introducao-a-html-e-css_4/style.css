@@ -9,7 +9,7 @@ header {
     text-align: center;
     font-weight: bold;
 }
-li {
+li.nav {
     display: inline-block;
     margin-left: 25px;
 }
@@ -87,4 +87,8 @@ aside {
     width: 15%;
     padding: 10px 20px;
     border: solid #fff 2px;
+}
+
+footer{
+    color: #fff;
 }
