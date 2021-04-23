@@ -1,4 +1,4 @@
-let nota = 40;
+let nota = 70;
 
 if (nota < 0 && nota > 100){
     console.log("Valor inserido fora do permitido!");
