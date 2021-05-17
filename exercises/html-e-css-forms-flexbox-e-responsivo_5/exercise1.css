@@ -25,9 +25,34 @@ figure {
     font-size: 25px;
  }
 
+ h1 {
+     font-size: 40px;
+     text-align: center;
+ }
+
+ h2 {
+    text-align: center;
+}
  .figures {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
+}
+
+@media screen and (min-width: 1300px){
+    body{
+        background-color: aquamarine;
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    figure {
+        margin: 15px;
+    }
 }
