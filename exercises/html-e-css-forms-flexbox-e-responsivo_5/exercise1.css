@@ -1,0 +1,33 @@
+body{
+    font-size: 20px;
+    margin: 5px 15px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 20px;
+}
+
+@media screen and (min-width: 1000px){
+ body {
+    background-color: blueviolet;
+    font-size: 25px;
+ }
+
+ .figures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
