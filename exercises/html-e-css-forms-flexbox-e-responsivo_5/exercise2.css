@@ -61,7 +61,15 @@ html {
       justify-content: center;
     }
 
-    p, li{
+    p, li, nav{
       font-size: 25px;
+    }
+
+    nav {
+      margin: 15px 0;
+    }
+
+    footer p, h3{
+      font-size: 20px;
     }
   }
