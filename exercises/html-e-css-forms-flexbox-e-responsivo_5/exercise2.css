@@ -6,14 +6,18 @@ html {
   }
 
   body{
-    margin: 20px 15px;
+    margin: 20px 20px;
+  }
+
+  h1 {
+    text-align: center;
   }
 
   nav ul {
     display: flex;
     list-style-type: none;
     margin: 0;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0;
     font-size: 20px;
   }
@@ -42,4 +46,22 @@ html {
 
   footer p {
     font-size: 15px;
+  }
+
+  @media screen and (min-width: 650px){
+    #container-aside {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  @media screen and (min-width: 1000px){
+    #container-aside {
+      display: flex;
+      justify-content: center;
+    }
+
+    p, li{
+      font-size: 25px;
+    }
   }
