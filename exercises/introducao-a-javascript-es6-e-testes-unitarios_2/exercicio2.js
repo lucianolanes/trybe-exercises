@@ -35,3 +35,17 @@ const totalEstudantes = () => {
 
   return estudantesLesson1 + estudantesLesson2 + estudantesLesson3;
 }
+
+// const getNumberOfStudents = (obj) => {
+//   let total = 0;
+//   const array = Object.keys(obj);
+//   for (index in array) {
+//     total += obj[array[index]].numeroEstudantes;
+//   }
+//   return total;
+// };
+
+// console.log(getNumberOfStudents(allLessons));
+
+const valorDaChave = (lesson, key) => Object.values(lesson)[key];
+
