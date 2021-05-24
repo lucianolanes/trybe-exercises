@@ -15,7 +15,11 @@ assert.strictEqual(soma9, 9, 'A soma de 4 + 5 tem que ser 9!');
 const soma0 = sum(0,0);
 assert.strictEqual(soma0, 0);
 
-// const somaString = sum(4,'5');
-// assert.strictEqual(somaString,9);
 
+assert.throws(() => {
+  sum(4,'5');
+});
 
+assert.throws(() => {
+  sum(4,'5');
+}, /^Error: parameters must be numbers$/);
