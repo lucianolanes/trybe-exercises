@@ -1,10 +1,4 @@
-const comparaNumbs = (num1, num2) => {
-  if (num1 === num2){
-    return true;
-  } else {
-    return false;
-  }
-}
+const comparaNumbs = (num1, num2) => num1 === num2;
 
 const sorteio = (aposta) => {
   const randomNumb = Math.round(Math.random() * 5);
@@ -15,6 +9,7 @@ const sorteio = (aposta) => {
   } else {
     return "Tente Novamente"
   }
+  // ou  return callback(myNumber, number) ? 'Lucky day, you won!' : 'Try Again!';
 }
 
 console.log(sorteio(5));
