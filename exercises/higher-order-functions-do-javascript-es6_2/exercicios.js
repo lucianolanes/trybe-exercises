@@ -160,4 +160,14 @@ function booksOrderedByReleaseYearDesc() {
   return books.sort((bookA,bookB) => bookB.releaseYear - bookA.releaseYear);
 }
 
-assert.deepStrictEqual(booksOrderedByReleaseYearDesc(), expectedResult2);
+// 5 - Faça uma função que retorne true , se todas as pessoas autoras nasceram no século XX, ou false , caso contrário.
+// assert.deepStrictEqual(booksOrderedByReleaseYearDesc(), expectedResult2);
+
+const expectedResult3 = false;
+
+function everyoneWasBornOnSecXX() {
+  // escreva seu código aqui
+  return books.every((book) => book.author.birthYear >= 1901 && book.author.birthYear < 2001);
+}
+
+assert.strictEqual(everyoneWasBornOnSecXX(), expectedResult3);
