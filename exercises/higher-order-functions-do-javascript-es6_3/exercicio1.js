@@ -208,4 +208,18 @@ function fantasyOrScienceFictionAuthors() {
 
 }
 
-assert.deepStrictEqual(fantasyOrScienceFictionAuthors(), expectedResult5);
+// assert.deepStrictEqual(fantasyOrScienceFictionAuthors(), expectedResult5);
+
+// 6 - Crie um array com o nome de todos os livros com mais de 60 anos de publicação.
+const expectedResult6 = [
+  'O Senhor dos Anéis',
+  'Fundação',
+  'O Chamado de Cthulhu',
+];
+
+function oldBooks() {
+  const filter60years = books.filter((book) => book.releaseYear <= 1961);
+  return filter60years.map((book) => book.name);
+}
+console.log(oldBooks());
+assert.deepStrictEqual(oldBooks(), expectedResult6);
