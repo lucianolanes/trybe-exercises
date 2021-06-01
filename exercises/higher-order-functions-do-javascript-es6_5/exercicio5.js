@@ -1,24 +1,16 @@
-// 3 - Escreva a função personLikes , que dado um objeto de parâmetro que representa uma pessoa, retorna todos os gostos daquela pessoa, conforme mostrado abaixo:
-// Dica: use object destructuring.
+// 5 - Escreva a função swap , que dado um array de 3 elementos, retorna um novo array com o primeiro e terceiro elementos trocados. Detalhe: você precisa fazer essa função gastando 1 linha só:
+// Dica: use array destructuring .
 
 const assert = require('assert');
 
-const alex = {
-  name: 'Alex',
-  age: 26,
-  likes: ['fly fishing'],
-  nationality: 'Australian',
-};
+const myList = [1, 2, 3];
 
-const gunnar = {
-  name: 'Gunnar',
-  age: 30,
-  likes: ['hiking', 'scuba diving', 'taking pictures'],
-  nationality: 'Icelandic',
-};
+// escreva swap abaixo
+const swap = ([a, b, c]) => [c, b, a];
 
-// complete a assinatura da função abaixo
-const personLikes = ({name, age, likes}) => `${name} is ${age} years old and likes ${likes.join(', ')}.`;
+const swappedList = swap(myList);
+console.log(swappedList);
 
-assert.strictEqual(personLikes(alex), 'Alex is 26 years old and likes fly fishing.');
-assert.strictEqual(personLikes(gunnar), 'Gunnar is 30 years old and likes hiking, scuba diving, taking pictures.');
+assert.strictEqual(swappedList[0], 3);
+assert.strictEqual(swappedList[1], 2);
+assert.strictEqual(swappedList[2], 1);
