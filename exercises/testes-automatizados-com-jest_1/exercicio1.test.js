@@ -6,25 +6,23 @@ describe ('Testando a função de soma', () => {
   })
 
   test('Soma 0 + 0', () => {
-    expect(sum(0,0)).toBe(0);
+    expect(sum(0, 0)).toBe(0);
   })
 
   test('Somando numero e string', () => {
+    expect(() => {
+      sum(4,'5').toThrow()});
+  })
+
+  test('Somando numero e string e checkando messagem de erro', () => {
     expect(() => {
       sum(4,'5').toThrow(/parameters must be numbers/)});
   })
 })
 
-// ------------
-const assert = require('assert');
-
-function myRemove(arr, item) {
-  let newArr = [];
-  for (let index = 0; index < arr.length; index += 1) {
-    if (item !== arr[index]) {
-      newArr.push(arr[index]);
-    }
-  }
-  return newArr;
-}
+// describe('Testando a Função MyRemove', () => {
+//   test('Verifique se a chamada retorna o array esperado', () => {
+//     expect(myRemove([1, 2, 3, 4], 3).toEqual([1, 2, 4]));
+//   })
+// })
 
